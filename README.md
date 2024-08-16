@@ -1,19 +1,15 @@
-# enmity-devsocket
+# vendetta-devsocket
 
-A devtool for Enmity.
+An updated fork of [maisymoe/enmity-devsocket](https://github.com/maisymoe/enmity-devsocket) which is focued on Vedetta but should be compatible with Enmity too
 
 ## Usage
-
-# Pre-hosted
-
-There is an instance of the client at [devsocket.beefers.dev](https://devsocket.beefers.dev/).
 
 # Running the client
 
 * Clone the repo
 
 ```
-git clone https://github.com/Beefers/enmity-devsocket
+git clone https://github.com/sdshan8/vendetta-devsocket
 ```
 
 * Build
@@ -32,7 +28,7 @@ npm run serve
 
 # Running the server
 
-* Clone the server
+* Clone the original server as it works
 
 ```
 git clone https://github.com/Beefers/enmity-devsocket-server
@@ -52,5 +48,13 @@ npm run start
 
 * Put the server URL inside the Server URL textbox
 * Hit "Connect"
+* Connect to Vendetta/Bunny by:
+  0. Enable Vendetta developer settings
+    - Tapon the You tab Twice
+    - General/Bunny page under the Vendetta or Bunny Category
+    - Find and enable Developer Options
+  1. Open the Developer page under the Vendetta or Bunny Category
+  2. Fill in your Server url
+  3. Press the "Connect to debug websocket" button
 * Connect Enmity to the server with the same URL, either via the autoconnect method in Settings or the `/websocket` command.
 * Get developing!

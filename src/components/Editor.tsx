@@ -1,5 +1,5 @@
 import { JSX, createSignal } from "solid-js";
-import Monaco from "monaco-solid";
+import Monaco from "@uwu/monaco-solid";
 
 interface EditorProps {
     children?: JSX.Element[] | JSX.Element;
