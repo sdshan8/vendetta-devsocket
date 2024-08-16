@@ -1,7 +1,7 @@
 {
-  "name": "enmity-devsocket",
-  "version": "1.0.0",
-  "description": "A devtool for Enmity.",
+  "name": "vendetta-devsocket",
+  "version": "1.0.1",
+  "description": "An updated fork of https://github.com/maisymoe/enmity-devsocket which is focued on Vedetta but should be compatible with Enmity too",
   "main": "dist/index.js",
   "scripts": {
     "start": "vite",
@@ -10,18 +10,18 @@
     "serve": "vite preview"
   },
   "keywords": [],
-  "author": "Beef",
+  "author": "beff",
   "license": "BSD-3-Clause",
+  "dependencies": {
+    "@uwu/monaco-solid": "^1.4.0",
+    "solid-js": "^1.8.21"
+  },
   "devDependencies": {
     "@windicss/plugin-scrollbar": "^1.2.3",
-    "typescript": "^4.7.4",
-    "vite": "^2.9.12",
-    "vite-plugin-solid": "^2.2.6",
-    "vite-plugin-windicss": "^1.8.4",
-    "windicss": "^3.5.4"
-  },
-  "dependencies": {
-    "monaco-solid": "^1.0.1",
-    "solid-js": "^1.4.4"
+    "typescript": "^5.5.4",
+    "vite": "^5.4.1",
+    "vite-plugin-solid": "^2.10.2",
+    "vite-plugin-windicss": "^1.9.3",
+    "windicss": "^3.5.6"
   }
 }
