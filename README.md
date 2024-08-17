@@ -46,15 +46,17 @@ npm run build
 npm run start
 ```
 
-* Put the server URL inside the Server URL textbox
+* Put the Server URL inside the Server URL textbox
+  - Note: Server URL should be `ws://[address[:port]]` like `ws://127.0.0.1:4000`
 * Hit "Connect"
 * Connect to Vendetta/Bunny by:
+
   0. Enable Vendetta developer settings
-    - Tapon the You tab Twice
-    - General/Bunny page under the Vendetta or Bunny Category
-    - Find and enable Developer Options
+      - Tapon the You tab Twice
+      - General/Bunny page under the Vendetta or Bunny Category
+      - Find and enable Developer Options
   1. Open the Developer page under the Vendetta or Bunny Category
-  2. Fill in your Server url
+  2. Fill in your Server URL
   3. Press the "Connect to debug websocket" button
 * Connect Enmity to the server with the same URL, either via the autoconnect method in Settings or the `/websocket` command.
 * Get developing!
