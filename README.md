@@ -28,10 +28,10 @@ npm run serve
 
 # Running the server
 
-* Clone the original server as it works
+* Clone the [original server](https://github.com/maisymoe/enmity-devsocket-server) or [my fork](https://github.com/sdshan8/vendetta-devsocket-server), they are both the same thing so either works
 
 ```
-git clone https://github.com/Beefers/enmity-devsocket-server
+git clone https://github.com/sdshan8/vendetta-devsocket-server
 ```
 
 * Build the server
