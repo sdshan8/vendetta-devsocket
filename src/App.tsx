@@ -3,17 +3,20 @@ import { render } from "solid-js/web";
 import "virtual:windi.css";
 import "virtual:windi-devtools";
 
-import ActionPanel from "./components/ActionPanel";
+import ActionBar from "./components/ActionBar";
+
 import Editor from "./components/Editor";
 import Output from "./components/Output";
 
 
 function App() {
     return (
-        <div class="w-screen h-screen font-medium bg-primary text-text flex md:flex-row <md:flex-col">
-            <ActionPanel />
-            <Editor />
-            <Output />
+        <div class="h-screen w-screen flex flex-col">
+            <ActionBar />
+            <div class="font-medium bg-primary text-text flex md:flex-row <md:flex-col flex-auto flex-grow flex-shrink">
+                <Editor />
+                <Output />
+            </div>
         </div>
     );
 };
